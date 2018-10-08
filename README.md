@@ -7,6 +7,12 @@ Using CardView. Floating Button and Transition transform
 
 ![img](https://t1.daumcdn.net/cfile/tistory/99B6DD3B5AB9102C34)
 
+### Demo
+
+![](https://raw.githubusercontent.com/felipecsl/GifImageView/master/demo.gif)
+
+![](https://t1.daumcdn.net/cfile/tistory/99B6DD3B5AB9102C34)
+
 # More info
 
 When you use transition transform with glide
