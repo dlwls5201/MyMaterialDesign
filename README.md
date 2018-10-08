@@ -5,11 +5,9 @@ MyMaterialDesign
 
 Using CardView. Floating Button and Transition transform
 
-![img](https://t1.daumcdn.net/cfile/tistory/99B6DD3B5AB9102C34)
-
 ### Demo
 
-![](https://t1.daumcdn.net/cfile/tistory/99C6FA475BA1A0B504)
+![alt text](/placeholder.png )
 
 ### More info
 
