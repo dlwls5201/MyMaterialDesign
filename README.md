@@ -7,7 +7,7 @@ Using CardView. Floating Button and Transition transform
 
 ### Demo
 
-![alt text](/placeholder.png )
+![placeholder](/placeholder.png )
 
 ### More info
 
