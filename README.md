@@ -9,9 +9,7 @@ Using CardView. Floating Button and Transition transform
 
 ### Demo
 
-![test](https://raw.githubusercontent.com/felipecsl/GifImageView/master/demo.gif)
-
-![](https://t1.daumcdn.net/cfile/tistory/99B6DD3B5AB9102C34.gif)
+![](https://t1.daumcdn.net/cfile/tistory/99C6FA475BA1A0B504)
 
 ### More info
 
