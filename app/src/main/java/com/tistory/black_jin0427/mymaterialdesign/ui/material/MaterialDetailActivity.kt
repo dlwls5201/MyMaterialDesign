@@ -2,6 +2,8 @@ package com.tistory.black_jin0427.mymaterialdesign.ui.material
 
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.MenuItem
@@ -66,6 +68,7 @@ class MaterialDetailActivity: AppCompatActivity() {
 
                     Glide.with(this@MaterialDetailActivity)
                             .load(url)
+                            .placeholder(ContextCompat.getDrawable(applicationContext, R.drawable.placeholder))
                             .into(ivActivityMaterialDetail)
 
                     tvActivityDetailGenre.text = genre

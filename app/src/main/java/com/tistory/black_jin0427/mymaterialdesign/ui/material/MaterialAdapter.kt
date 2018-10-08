@@ -2,6 +2,7 @@ package com.tistory.black_jin0427.mymaterialdesign.ui.material
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
+import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -17,8 +18,6 @@ class MaterialAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private var listener: ItemClickListener? = null
 
-    private val placeholder = ColorDrawable(Color.GRAY)
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = MovieHolder(parent)
 
     override fun getItemCount() = items.size
@@ -31,7 +30,7 @@ class MaterialAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
             Glide.with(context)
                     .load(item.url)
-                    .placeholder(placeholder)
+                    .placeholder(ContextCompat.getDrawable(context, R.drawable.placeholder))
                     .into(ivItemMovie)
 
             tvItemMovieGenre.text = item.genre
