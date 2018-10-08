@@ -5,7 +5,8 @@ MyMaterialDesign
 
 Using CardView. Floating Button and Transition transform
 
-![img](http://i.imgur.com/yourfilename.png)
+![img](http://cfile1.uf.tistory.com/image/0138F14A517F77713A43A6)
+![ex_screenshot](./app/src/main.res/drawable/explain.gif)
 
 # More info
 
